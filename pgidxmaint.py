@@ -1,9 +1,8 @@
 #!/usr/bin/python
 
-######################################
-# Postgres Index Maintenance Script
-version = 2.1
-######################################
+#####################################
+# Postgres Index Maintenance Script #
+#####################################
 
 import sys,datetime,argparse,psycopg2
 from psycopg2 import extras
